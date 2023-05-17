@@ -11,6 +11,9 @@ namespace HC12TO13
 
         public int TemperatureC { get; set; }
 
+        [Obsolete("Use Title")]
         public string? Summary { get; set; }
+
+        public string? Title { get; set; }
     }
 }
